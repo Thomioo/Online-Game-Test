@@ -85,4 +85,4 @@ def f(uuid: int, x:int, y:int):
     return 400
 
 if __name__ == "__main__":
-    uvicorn.run(app, port=9999)
+    uvicorn.run(app, host="0.0.0.0" ,port=9999)
